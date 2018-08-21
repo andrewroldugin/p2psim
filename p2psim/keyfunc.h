@@ -139,6 +139,7 @@ struct hash2fn {
 template<class T> struct compare<T *>;
 template<class T> struct hashfn<T *>;
 
+#include<string.h>
 /* Specializations for (char *) */
 #define _CHAR_PTR(T, u)						\
 template<>							\
